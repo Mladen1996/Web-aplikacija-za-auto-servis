@@ -1,0 +1,222 @@
+
+.row{
+	width: 100%;
+}
+#topheader{
+	height:40px;
+	width: 100%;
+	background-color: red;
+	color: white;
+}
+
+#topheader p{
+	font-size: 18px;
+	padding-top: 5px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+#topheader i{
+	padding-top: 8px;
+	font-size: 25px;
+}
+
+#logoSection{
+	width: 100%;
+	height: 100px;
+	border-bottom: 2px black solid;
+}
+
+#logoSection img{
+	width: 100px;
+	height: 100px;
+}
+
+
+
+nav{
+	background-color: #2e375f;
+}
+
+nav ul{
+	margin: 0 auto;
+}
+
+nav ul li:hover{
+	background-color: red;
+	border-radius: 30px;
+}
+
+.navbar-custom .nav-link {
+    color:white;
+}
+.dropdown-item:hover{
+    background-color: lightgray;
+}
+#dugmeLog:hover{
+    text-decoration: none;
+    color:white;
+}
+#imeServisa{
+	color: red;
+}
+
+#onama{
+	color: gray;
+}
+
+footer {
+    padding-top: 1rem;
+    background-color: #2e375f;
+   /* margin-top: 10%;*/
+}
+#footerContact{
+	padding-top: 1rem;
+    background-color: #2e375f;
+    margin-top: 0%;
+}
+
+footer .fa-twitter-square {
+    color: #00aced;
+}
+
+footer .fa-twitter-square:hover {
+    color: #0084b4;
+}
+
+footer .fa-facebook {
+    color: #3b5998;
+}
+
+footer .fa-facebook:hover {
+    color: #8b9dc3;
+}
+
+footer .fa-facebook {
+    color: #3b5998;
+}
+
+footer .fa-facebook:hover {
+    color: #2d4373;
+}
+
+footer .fa-linkedin {
+    color: #007BB6;
+}
+
+footer .fa-linkedin:hover {
+    color: #005983;
+}
+
+footer .fa-instagram {
+    color: #d6249f;
+}
+
+footer .fa-instagram:hover {
+    color: #aa1d7f;
+}
+
+#topheader .fa-twitter-square {
+	color: #00aced;
+
+}
+
+#topheader .fa-facebook{
+	color: #3b5998;
+}
+
+#topheader .fa-linkedin{
+	color: #007BB6;
+}
+
+#topheader .fa-instangram{
+	color:#d6249f;
+}
+
+
+/*Onama.html*/
+
+#jumbotronOnama{
+	 background-image: url(../img/car2.jpg);
+    padding: 6rem 2rem;
+    background-attachment: fixed;
+    margin-bottom: 4em; 
+}
+
+#jumbotronVulkanizer{
+	 background-image: url(../img/usluga4.jpg);
+    padding: 6rem 2rem;
+    background-attachment: fixed;
+    margin-bottom: 4em; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#jumbotronPerionica{
+	 background-image: url(../img/usluga3.jpg);
+    padding: 6rem 2rem;
+    background-attachment: fixed;
+    margin-bottom: 4em; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#jumbotronLimarija{
+	 background-image: url(../img/usluge2.jpg);
+    padding: 6rem 2rem;
+    background-attachment: fixed;
+    margin-bottom: 4em; 
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#jumbotronKontakt{
+	background-image: url(../img/kontakt.jpg);
+    padding: 6rem 2rem;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 4em; 
+}
+
+#contact-colab {
+        background: url(../img/kontaktforma.jpeg) no-repeat center center / cover;
+    }
+
+
+
+#logovanje{
+    background:url(../img/logovanje.jpg) no-repeat center center / cover;; 
+}
+
+.card:hover{
+		box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+	}
+
+#jumbotronPocetna{
+	background-image: url(../img/baner.jpg);
+	background-attachment: fixed;
+	margin-top:4em;
+	margin-bottom: 4em;  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#jumbotronServis{
+	 background-image: url(../img/auto_servis.jpg);
+    padding: 6rem 2rem;
+    background-attachment: fixed;
+    margin-bottom: 4em; 
+}
+
+
+    @media only screen and (min-width: 992px) {
+        #meni{
+            visibility: hidden;
+        }
+}
+@media only screen and (max-width: 992px) {
+    nav ul li:hover{
+        background-color: red;
+        border-radius: 5px;
+        width:30%;
+        padding-left: 5px;
+    }
+}
